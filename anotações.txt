@@ -1,0 +1,5 @@
+arquivo .properties deve ser renomeado para yml
+
+configurar eureka server
+
+deve ser adicionado o @EnableEurekaServer na classe principal
