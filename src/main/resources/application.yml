@@ -1,17 +1,17 @@
 spring:
   application:
-    #muito importante definir o nome do app, a comunicação é feita por meio de nome do microsserviço
+    #muito importante definir o nome do app, a comunicaÃ§Ã£o  feita por meio de nome do microsservio
     name: eurekaserver # poderia ser qualquer nome
 
 
 server:
-  port: 8761 # porta padrão do eurekaserver, é uma convenção
+  port: 8761 # porta padrÃ£o do eurekaserver,  uma conveno
 
-# configurando o client do eureka para não se auto registrar no discover server
+# configurando o client do eureka para no se auto registrar no discover server
 eureka:
   client:
     register-with-eureka: false
-    # buscar registros dos microsserviços ? não. O gateway fará isso, é seu papel
-    fetch-registrey: false
+    # buscar registros dos microsservios ? no. O gateway far isso,  seu papel
+    fetch-registry: false
 
 
